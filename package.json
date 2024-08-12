@@ -1,0 +1,39 @@
+{
+  "name": "generardor-recibos",
+  "productName": "generardor-recibos",
+  "version": "1.0.0",
+  "description": "GENERADOR DE RECIBOS",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.4.0",
+    "@electron-forge/maker-deb": "^7.4.0",
+    "@electron-forge/maker-rpm": "^7.4.0",
+    "@electron-forge/maker-squirrel": "^7.4.0",
+    "@electron-forge/maker-zip": "^7.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+    "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "31.0.2"
+  },
+  "keywords": [],
+  "author": "Christian Piccinini",
+  "license": "MIT",
+  "dependencies": {
+    "@pdfme/common": "^4.0.2",
+    "@pdfme/generator": "^4.0.2",
+    "@pdfme/schemas": "^4.0.2",
+    "@pdfme/ui": "^4.0.2",
+    "date-fns": "^3.6.0",
+    "electron-squirrel-startup": "^1.0.1",
+    "jspdf": "^2.5.1",
+    "pdfkit": "^0.15.0",
+    "pdfkit-table": "^0.1.99"
+  }
+}
